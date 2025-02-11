@@ -44,7 +44,7 @@ The dataset includes the following components:
 
 To set up the environment, ensure you have the following libraries installed:
 
-```bash
+```python
 pip install numpy pandas scikit-learn dask
 
 Usage
@@ -63,11 +63,9 @@ File Structure
 Evaluation
 The model is evaluated based on prediction accuracy using metrics such as RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
 
-Contribution
-Feel free to contribute to the project by submitting pull requests, reporting issues, or suggesting improvements.
-
-License
+```
+## License
 This project is licensed under the MIT License.
 
-Conclusion
+## Conclusion
 This project aims to provide an efficient and scalable movie recommendation system capable of handling large datasets. By combining content-based and collaborative filtering techniques, we can improve prediction accuracy and enhance the user experience, helping users discover movies that match their preferences.
